@@ -1,583 +1,496 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
-  <row>
+<biblio>
+  <asset>
     <Item Type>webpage</Item Type>
     <Publication Year>2020</Publication Year>
     <Author>Tanner, Gilbert</Author>
     <Title>Live Object Detection</Title>
     <Publication Title>Medium</Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url>https://towardsdatascience.com/live-object-detection-26cd50cceffd</Url>
     <Abstract Note>Live Object Detection using the Tensorflow Object Detection API</Abstract Note>
     <Date>2020-07-28</Date>
-    <Date Added>2021-12-23 16:12:04</Date Added>
-    <Date Modified>2021-12-23 16:12:04</Date Modified>
     <Access Date>2021-12-23 16:12:04</Access Date>
     <Pages></Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>webpage</Item Type>
     <Publication Year></Publication Year>
     <Author></Author>
     <Title>PyImageSearch - You can master Computer Vision, Deep Learning, and OpenCV.</Title>
     <Publication Title>PyImageSearch</Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url>https://www.pyimagesearch.com/</Url>
     <Abstract Note>Helping developers, students, and researchers master Computer Vision, Deep Learning, and OpenCV.</Abstract Note>
     <Date></Date>
-    <Date Added>2021-12-23 16:51:38</Date Added>
-    <Date Modified>2021-12-23 16:51:38</Date Modified>
     <Access Date>2021-12-23 16:51:38</Access Date>
     <Pages></Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>webpage</Item Type>
     <Publication Year>2021</Publication Year>
     <Author>Agnihotri, Akash</Author>
     <Title>Implementing Real-time Object Detection System using PyTorch and OpenCV</Title>
     <Publication Title>Medium</Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url>https://towardsdatascience.com/implementing-real-time-object-detection-system-using-pytorch-and-opencv-70bac41148f7</Url>
     <Abstract Note>Hands-On Guide to implement real-time object detection system using python</Abstract Note>
     <Date>2021-06-18</Date>
-    <Date Added>2021-12-23 19:01:57</Date Added>
-    <Date Modified>2021-12-23 19:01:57</Date Modified>
     <Access Date>2021-12-23 19:01:57</Access Date>
     <Pages></Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>journalArticle</Item Type>
     <Publication Year></Publication Year>
     <Author>Nowak, Eric</Author>
     <Title>Reconnaissance de catégories d&apos;objets et d&apos;instances d&apos;objets à l&apos;aide de représentations locales</Title>
     <Publication Title></Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url></Url>
     <Abstract Note></Abstract Note>
     <Date></Date>
-    <Date Added>2021-12-27 11:25:19</Date Added>
-    <Date Modified>2021-12-27 11:25:19</Date Modified>
     <Access Date></Access Date>
     <Pages>186</Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>blogPost</Item Type>
     <Publication Year>2018</Publication Year>
     <Author></Author>
     <Title>Comment fonctionne la reconnaissance d&apos;image ? - Deepomatic - Visual Automation Platform</Title>
     <Publication Title>Deepomatic</Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url>https://deepomatic.com/fr/comment-fonctionne-la-reconnaissance-dimage</Url>
     <Abstract Note>COMMENT FONCTIONNE LA RECONNAISSANCE D’IMAGE ET COMMENT L’UTILISER ?  La reconnaissance d’images fait référence aux technologies qui identifient les lieux, les logos, les personnes, les objets, les bâtiments et plusieurs autres variables dans des images. Les utilisateurs partagent de grandes quantités de données par le biais d’applications, des réseaux sociaux et des sites Web. De […]</Abstract Note>
     <Date>2018-05-28</Date>
-    <Date Added>2021-12-27 11:27:05</Date Added>
-    <Date Modified>2021-12-27 11:27:05</Date Modified>
     <Access Date>2021-12-27 11:27:05</Access Date>
     <Pages></Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>webpage</Item Type>
     <Publication Year>2020</Publication Year>
     <Author>DataGenius</Author>
     <Title>Reconnaissance d&apos;image : Quelle solution choisir ?</Title>
     <Publication Title>datagenius</Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url>https://www.datagenius.fr/post/reconnaissance-d-image-intelligence-artificielle-ai-compare</Url>
     <Abstract Note>Quelle solution de reconnaissance d&apos;image choisir ? Intelligence Artificiel, test et comparatif avec AI-Compare</Abstract Note>
     <Date>2020-02-17</Date>
-    <Date Added>2021-12-27 11:28:20</Date Added>
-    <Date Modified>2021-12-27 11:28:20</Date Modified>
     <Access Date>2021-12-27 11:28:20</Access Date>
     <Pages></Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>blogPost</Item Type>
     <Publication Year>2021</Publication Year>
     <Author>Cochard, David</Author>
     <Title>YOLOv5 : The Latest Model for Object Detection</Title>
     <Publication Title>axinc-ai</Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url>https://medium.com/axinc-ai/yolov5-the-latest-model-for-object-detection-b13320ec516b</Url>
     <Abstract Note>This is an introduction to「YOLOv5」, a machine learning model that can be used with ailia SDK. You can easily use this model to create AI…</Abstract Note>
     <Date>2021-05-26</Date>
-    <Date Added>2021-12-27 11:39:53</Date Added>
-    <Date Modified>2021-12-27 11:39:53</Date Modified>
     <Access Date>2021-12-27 11:39:53</Access Date>
     <Pages></Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>blogPost</Item Type>
     <Publication Year>2021</Publication Year>
     <Author></Author>
     <Title>Object Detection in 2021: The Definitive Guide</Title>
     <Publication Title>viso.ai</Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url>https://viso.ai/deep-learning/object-detection/</Url>
     <Abstract Note>Complete overview of Object Detection in 2021. Introduction to the most popular Computer Vision and Deep Learning Object Detection Algorithms.</Abstract Note>
     <Date>2021-07-09</Date>
-    <Date Added>2021-12-27 19:25:01</Date Added>
-    <Date Modified>2021-12-27 19:25:01</Date Modified>
     <Access Date>2021-12-27 19:25:01</Access Date>
     <Pages></Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>blogPost</Item Type>
     <Publication Year>2021</Publication Year>
     <Author></Author>
     <Title>YOLOv3: Real-Time Object Detection Algorithm (What&apos;s New?)</Title>
     <Publication Title>viso.ai</Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url>https://viso.ai/deep-learning/yolov3-overview/</Url>
     <Abstract Note>What is YOLOv3, and how does it work? Learn how fast it really is and why it is so popular for real-time object detection.</Abstract Note>
     <Date>2021-02-25</Date>
-    <Date Added>2021-12-27 19:34:40</Date Added>
-    <Date Modified>2021-12-27 19:34:40</Date Modified>
     <Access Date>2021-12-27 19:34:40</Access Date>
     <Pages></Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>blogPost</Item Type>
     <Publication Year>2021</Publication Year>
     <Author></Author>
     <Title>ANN and CNN: Analyzing Differences and Similarities</Title>
     <Publication Title>viso.ai</Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url>https://viso.ai/deep-learning/ann-and-cnn-analyzing-differences-and-similarities/</Url>
     <Abstract Note>Easy to understand guide about differences between ANN vs. CNN. Their characteristics and why it&apos;s important to use them for the right task.</Abstract Note>
     <Date>2021-02-01</Date>
-    <Date Added>2021-12-27 19:36:25</Date Added>
-    <Date Modified>2021-12-27 19:36:25</Date Modified>
     <Access Date>2021-12-27 19:36:25</Access Date>
     <Pages></Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>blogPost</Item Type>
     <Publication Year>2021</Publication Year>
     <Author></Author>
     <Title>83 Most Popular Computer Vision Applications in 2022</Title>
     <Publication Title>viso.ai</Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url>https://viso.ai/applications/computer-vision-applications/</Url>
     <Abstract Note>Explore an extensive list of the top 83 Computer Vision Applications. Find powerful, surprising, and high-value use cases across industries.</Abstract Note>
     <Date>2021-03-09</Date>
-    <Date Added>2021-12-27 19:40:37</Date Added>
-    <Date Modified>2021-12-27 19:40:37</Date Modified>
     <Access Date>2021-12-27 19:40:37</Access Date>
     <Pages></Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>journalArticle</Item Type>
     <Publication Year></Publication Year>
     <Author>Puech, Fannie</Author>
     <Title>Vers plus de robustesse en reconnaissance d&apos;objets et de visages pour l&apos;analyse d&apos;images issues de vidéos de concert</Title>
     <Publication Title></Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url></Url>
     <Abstract Note></Abstract Note>
     <Date></Date>
-    <Date Added>2021-12-28 11:25:44</Date Added>
-    <Date Modified>2021-12-28 11:25:45</Date Modified>
     <Access Date></Access Date>
     <Pages>127</Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>presentation</Item Type>
     <Publication Year></Publication Year>
     <Author>Sakher BELOUADAH</Author>
     <Title>Object detection and recognition in digital images</Title>
     <Publication Title></Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url>https://fr.slideshare.net/SakherBELOUADAH/object-detection-and-recognition-in-digital-images</Url>
     <Abstract Note></Abstract Note>
     <Date>16:22:17 UTC</Date>
-    <Date Added>2021-12-28 13:05:32</Date Added>
-    <Date Modified>2021-12-28 13:05:32</Date Modified>
     <Access Date>2021-12-28 13:05:32</Access Date>
     <Pages></Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>blogPost</Item Type>
     <Publication Year>2018</Publication Year>
     <Author></Author>
     <Title>Building an Object Detection Model from Scratch in Python</Title>
     <Publication Title>Analytics Vidhya</Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url>https://www.analyticsvidhya.com/blog/2018/06/understanding-building-object-detection-model-python/</Url>
     <Abstract Note>Object detection is seeing a boom in the machine learning space in recent times. Learn how to build object detection models from scratch in Python.</Abstract Note>
     <Date>2018-06-28</Date>
-    <Date Added>2021-12-28 18:53:03</Date Added>
-    <Date Modified>2021-12-28 18:53:03</Date Modified>
     <Access Date>2021-12-28 18:53:03</Access Date>
     <Pages></Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>blogPost</Item Type>
     <Publication Year>2020</Publication Year>
     <Author>Mohan, Sachin</Author>
     <Title>6 Different Types of Object Detection Algorithms in Nutshell</Title>
     <Publication Title>MLK - Machine Learning Knowledge</Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url>https://machinelearningknowledge.ai/different-types-of-object-detection-algorithms/</Url>
     <Abstract Note>In this article we will cover some popular different types of object detection algorithms along with their advantages and limitations.</Abstract Note>
     <Date>2020-06-30</Date>
-    <Date Added>2021-12-29 11:28:01</Date Added>
-    <Date Modified>2021-12-29 11:28:01</Date Modified>
     <Access Date>2021-12-29 11:28:01</Access Date>
     <Pages></Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>webpage</Item Type>
     <Publication Year></Publication Year>
     <Author></Author>
     <Title>Facial recognition: top 7 trends (tech, vendors, markets, use cases &amp; latest news)</Title>
     <Publication Title>Thales Group</Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url>https://www.thalesgroup.com/en/markets/digital-identity-and-security/government/biometrics/facial-recognition</Url>
     <Abstract Note>Facial recognition is a hot topic and somewhat controversial. Discover 7 trends likely to shape the face recognition landscape for the next 2 years.</Abstract Note>
     <Date></Date>
-    <Date Added>2021-12-29 11:31:53</Date Added>
-    <Date Modified>2021-12-29 11:31:53</Date Modified>
     <Access Date>2021-12-29 11:31:53</Access Date>
     <Pages></Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>webpage</Item Type>
     <Publication Year>2019</Publication Year>
     <Author>Mattwich, Frederik</Author>
     <Title>Understanding Object Detection</Title>
     <Publication Title>Medium</Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url>https://towardsdatascience.com/understanding-object-detection-9ba089154df8</Url>
     <Abstract Note>From the history of object detection down to the inner workings of the famous Faster-RCNN</Abstract Note>
     <Date>2019-12-24</Date>
-    <Date Added>2021-12-29 16:04:26</Date Added>
-    <Date Modified>2021-12-29 16:04:26</Date Modified>
     <Access Date>2021-12-29 16:04:26</Access Date>
     <Pages></Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>journalArticle</Item Type>
     <Publication Year>2019</Publication Year>
     <Author>Zou, Zhengxia; Shi, Zhenwei; Guo, Yuhong; Ye, Jieping</Author>
     <Title>Object Detection in 20 Years: A Survey</Title>
     <Publication Title>arXiv:1905.05055 [cs]</Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url>http://arxiv.org/abs/1905.05055</Url>
     <Abstract Note>Object detection, as of one the most fundamental and challenging problems in computer vision, has received great attention in recent years. Its development in the past two decades can be regarded as an epitome of computer vision history. If we think of today’s object detection as a technical aesthetics under the power of deep learning, then turning back the clock 20 years we would witness the wisdom of cold weapon era. This paper extensively reviews 400+ papers of object detection in the light of its technical evolution, spanning over a quarter-century’s time (from the 1990s to 2019). A number of topics have been covered in this paper, including the milestone detectors in history, detection datasets, metrics, fundamental building blocks of the detection system, speed up techniques, and the recent state of the art detection methods. This paper also reviews some important detection applications, such as pedestrian detection, face detection, text detection, etc, and makes an in-deep analysis of their challenges as well as technical improvements in recent years.</Abstract Note>
     <Date>2019-05-15</Date>
-    <Date Added>2021-12-29 16:06:07</Date Added>
-    <Date Modified>2021-12-29 16:06:07</Date Modified>
     <Access Date>2021-12-29 16:06:07</Access Date>
     <Pages></Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>presentation</Item Type>
     <Publication Year></Publication Year>
     <Author>Preferred Networks</Author>
     <Title>A Brief History of Object Detection / Tommi Kerola</Title>
     <Publication Title></Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url>https://fr.slideshare.net/pfi/a-brief-history-of-object-detection-tommi-kerola</Url>
     <Abstract Note></Abstract Note>
     <Date>08:25:08 UTC</Date>
-    <Date Added>2021-12-29 16:10:35</Date Added>
-    <Date Modified>2021-12-29 16:10:35</Date Modified>
     <Access Date>2021-12-29 16:10:35</Access Date>
     <Pages></Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>encyclopediaArticle</Item Type>
     <Publication Year>2020</Publication Year>
     <Author></Author>
     <Title>Méthode de Viola et Jones</Title>
     <Publication Title>Wikipédia</Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url>https://fr.wikipedia.org/w/index.php?title=M%C3%A9thode_de_Viola_et_Jones&amp;oldid=175497864</Url>
     <Abstract Note>La méthode de Viola et Jones  est une méthode de détection d&apos;objet dans une image numérique, proposée par les chercheurs Paul Viola et Michael Jones en 2001. Elle fait partie des toutes premières méthodes capables de détecter efficacement et en temps réel des objets dans une image. Inventée à l&apos;origine pour détecter des visages, elle peut également être utilisée pour détecter d&apos;autres types d&apos;objets comme des voitures ou des avions. La méthode de Viola et Jones a été l&apos;une des méthodes les plus connues et les plus utilisées, en particulier pour la détection de visages et la détection de personnes. En tant que procédé d&apos;apprentissage supervisé, la méthode de Viola et Jones nécessite de quelques centaines à plusieurs milliers d&apos;exemples de l&apos;objet que l&apos;on souhaite détecter, pour entraîner un classifieur. Une fois son apprentissage réalisé, ce classifieur est utilisé pour détecter la présence éventuelle de l&apos;objet dans une image en parcourant celle-ci de manière exhaustive, à toutes les positions et dans toutes les tailles possibles. Considérée comme étant l&apos;une des plus importantes méthodes de détection d&apos;objet, la méthode de Viola et Jones est notamment connue pour avoir introduit plusieurs notions reprises ensuite par de nombreux chercheurs en vision par ordinateur, à l&apos;exemple de la notion d&apos;image intégrale ou de la méthode de classification construite comme une cascade de classifieurs boostés. Cette méthode bénéficie d&apos;une implémentation sous licence BSD dans OpenCV, une bibliothèque très utilisée en vision par ordinateur.</Abstract Note>
     <Date>2020-10-12</Date>
-    <Date Added>2021-12-29 16:59:44</Date Added>
-    <Date Modified>2021-12-29 16:59:44</Date Modified>
     <Access Date>2021-12-29 16:59:44</Access Date>
     <Pages></Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>webpage</Item Type>
     <Publication Year></Publication Year>
     <Author></Author>
     <Title>Explication de la machine vectorielle de support (SVM)</Title>
     <Publication Title>ICHI.PRO</Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url>https://ichi.pro/fr/explication-de-la-machine-vectorielle-de-support-svm-97743104690915</Url>
     <Abstract Note>Support Vector Machines (SVM) est un algorithme de base utilisé par les scientifiques des données. Il peut être appliqué à la fois aux problèmes de régression et de classification, mais il est le plus couramment utilisé pour la classification.</Abstract Note>
     <Date></Date>
-    <Date Added>2021-12-29 17:24:13</Date Added>
-    <Date Modified>2021-12-29 17:24:13</Date Modified>
     <Access Date>2021-12-29 17:24:13</Access Date>
     <Pages></Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>webpage</Item Type>
     <Publication Year>2018</Publication Year>
     <Author>Saha, Sumit</Author>
     <Title>A Comprehensive Guide to Convolutional Neural Networks — the ELI5 way</Title>
     <Publication Title>Medium</Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url>https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53</Url>
-    <Abstract Note>Artificial Intelligence has been witnessing a monumental growth in bridging the gap between the capabilities of humans and machines…</Abstract Note>
+    <Abstract Note>Artificial Intelligence has been witnessing a monumental gassetth in bridging the gap between the capabilities of humans and machines…</Abstract Note>
     <Date>2018-12-17</Date>
-    <Date Added>2021-12-30 12:57:53</Date Added>
-    <Date Modified>2021-12-30 12:57:53</Date Modified>
     <Access Date>2021-12-30 12:57:53</Access Date>
     <Pages></Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>webpage</Item Type>
     <Publication Year>2019</Publication Year>
     <Author></Author>
     <Title>Weight (Artificial Neural Network)</Title>
     <Publication Title>DeepAI</Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url>https://deepai.org/machine-learning-glossary-and-terms/weight-artificial-neural-network</Url>
     <Abstract Note>Weight is the parameter within a neural network that transforms input data within the network&apos;s hidden layers. As an input enters the node, it gets multiplied by a weight value and the resulting output is either observed, or passed to the next layer in the neural network.</Abstract Note>
     <Date>2019-05-17</Date>
-    <Date Added>2021-12-30 13:42:44</Date Added>
-    <Date Modified>2021-12-30 13:42:44</Date Modified>
     <Access Date>2021-12-30 13:42:44</Access Date>
     <Pages></Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>webpage</Item Type>
     <Publication Year>2020</Publication Year>
     <Author>Peixeiro, Marco</Author>
     <Title>Step-by-step Guide to Building Your Own Neural Network From Scratch</Title>
     <Publication Title>Medium</Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url>https://towardsdatascience.com/step-by-step-guide-to-building-your-own-neural-network-from-scratch-df64b1c5ab6e</Url>
     <Abstract Note>Learn the fundamentals of deep learning and build your very own neural network for image classification</Abstract Note>
     <Date>2020-05-19</Date>
-    <Date Added>2021-12-30 13:47:37</Date Added>
-    <Date Modified>2021-12-30 13:47:37</Date Modified>
     <Access Date>2021-12-30 13:47:37</Access Date>
     <Pages></Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>webpage</Item Type>
     <Publication Year></Publication Year>
     <Author></Author>
     <Title>Understanding SSD MultiBox — Real-Time Object Detection In Deep Learning | by Eddie Forson | Towards Data Science</Title>
     <Publication Title></Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url>https://towardsdatascience.com/understanding-ssd-multibox-real-time-object-detection-in-deep-learning-495ef744fab</Url>
     <Abstract Note></Abstract Note>
     <Date></Date>
-    <Date Added>2021-12-30 17:50:13</Date Added>
-    <Date Modified>2021-12-30 17:50:13</Date Modified>
     <Access Date>2021-12-30 17:50:13</Access Date>
     <Pages></Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>webpage</Item Type>
     <Publication Year>2019</Publication Year>
     <Author></Author>
     <Title>What Is SSD &amp; How It Improved Computer Vision Forever</Title>
     <Publication Title>Analytics India Magazine</Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url>https://analyticsindiamag.com/what-is-ssd-how-it-improved-computer-vision-forever/</Url>
     <Abstract Note>The ground truth box is matched with the default box using Jaccard overlap, which ensures that each ground truth box has exactly one matched default box.</Abstract Note>
     <Date>2019-03-29</Date>
-    <Date Added>2021-12-30 19:26:28</Date Added>
-    <Date Modified>2021-12-30 19:26:28</Date Modified>
     <Access Date>2021-12-30 19:26:28</Access Date>
     <Pages></Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>conferencePaper</Item Type>
     <Publication Year>2016</Publication Year>
     <Author>Liu, Wei; Anguelov, Dragomir; Erhan, Dumitru; Szegedy, Christian; Reed, Scott; Fu, Cheng-Yang; Berg, Alexander</Author>
     <Title>SSD: Single Shot MultiBox Detector</Title>
     <Publication Title></Publication Title>
     <ISBN>978-3-319-46447-3</ISBN>
-    <ISSN></ISSN>
     <DOI>10.1007/978-3-319-46448-0_2</DOI>
     <Url></Url>
     <Abstract Note>We present a method for detecting objects in images using a single deep neural network. Our approach, named SSD, discretizes the output space of bounding boxes into a set of default boxes over different aspect ratios and scales per feature map location. At prediction time, the network generates scores for the presence of each object category in each default box and produces adjustments to the box to better match the object shape. Additionally, the network combines predictions from multiple feature maps with different resolutions to naturally handle objects of various sizes. SSD is simple relative to methods that require object proposals because it completely eliminates proposal generation and subsequent pixel or feature resampling stages and encapsulates all computation in a single network. This makes SSD easy to train and straightforward to integrate into systems that require a detection component. Experimental results on the PASCAL VOC, COCO, and ILSVRC datasets confirm that SSD has competitive accuracy to methods that utilize an additional object proposal step and is much faster, while providing a unified framework for both training and inference. For \(300 \times 300\) input, SSD achieves 74.3 % mAP on VOC2007 test at 59 FPS on a Nvidia Titan X and for \(512 \times 512\) input, SSD achieves 76.9 % mAP, outperforming a comparable state of the art Faster R-CNN model. Compared to other single stage methods, SSD has much better accuracy even with a smaller input image size. Code is available at https:// github. com/ weiliu89/ caffe/ tree/ ssd.</Abstract Note>
     <Date>2016-10-08</Date>
-    <Date Added>2021-12-30 19:28:18</Date Added>
-    <Date Modified>2021-12-30 19:28:18</Date Modified>
     <Access Date></Access Date>
     <Pages>21-37</Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume>9905</Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>webpage</Item Type>
     <Publication Year></Publication Year>
     <Author></Author>
     <Title>YOLO: Real-Time Object Detection</Title>
     <Publication Title></Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url>https://pjreddie.com/darknet/yolov2/</Url>
     <Abstract Note></Abstract Note>
     <Date></Date>
-    <Date Added>2021-12-30 19:43:58</Date Added>
-    <Date Modified>2021-12-30 19:43:58</Date Modified>
     <Access Date>2021-12-30 19:43:58</Access Date>
     <Pages></Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-  <row>
+  </asset>
+  <asset>
     <Item Type>journalArticle</Item Type>
     <Publication Year></Publication Year>
     <Author>Redmon, Joseph; Farhadi, Ali</Author>
     <Title>YOLOv3: An Incremental Improvement</Title>
     <Publication Title></Publication Title>
     <ISBN></ISBN>
-    <ISSN></ISSN>
     <DOI></DOI>
     <Url></Url>
     <Abstract Note>We present some updates to YOLO! We made a bunch of little design changes to make it better. We also trained this new network that’s pretty swell. It’s a little bigger than last time but more accurate. It’s still fast though, don’t worry. At 320 × 320 YOLOv3 runs in 22 ms at 28.2 mAP, as accurate as SSD but three times faster. When we look at the old .5 IOU mAP detection metric YOLOv3 is quite good. It achieves 57.9 AP50 in 51 ms on a Titan X, compared to 57.5 AP50 in 198 ms by RetinaNet, similar performance but 3.8× faster. As always, all the code is online at https://pjreddie.com/yolo/.</Abstract Note>
     <Date></Date>
-    <Date Added>2021-12-30 19:44:44</Date Added>
-    <Date Modified>2021-12-30 19:44:44</Date Modified>
-    <Access Date></Access Date>
+    <Access Date>2021-12-30 19:44:44</Access Date>
     <Pages>6</Pages>
     <Num Pages></Num Pages>
     <Issue></Issue>
     <Volume></Volume>
-  </row>
-</root>
+  </asset>
+</biblio>
