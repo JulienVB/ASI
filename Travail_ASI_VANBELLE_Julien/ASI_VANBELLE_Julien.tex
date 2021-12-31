@@ -30,17 +30,11 @@
   \includegraphics[scale=0.5]{illu1.jpg} % insère une image en taille réelle
   % l'extension n'est pas précisée pour éviter des problèmes de compilation
   % plus d'info ici : http://fr.wikibooks.org/wiki/LaTeX/Inclure_des_images
-  \caption{Source: https://www.datagenius.fr/post/reconnaissance-d-image-intelligence-artificielle-ai-compare} % nom de l'image
+  \caption{\href{https://www.datagenius.fr/post/reconnaissance-d-image-intelligence-artificielle-ai-compare}{Source}} % nom de l'image
 \end{figure}
-\vspace{40}
-\section{Plan du document}
-\begin{enumerate}
-    \item Introduction (p. XX - XX) \newline
-    \item Principes de bases (p. XX - XX)\newline
-    \item La reconnaissance d'objets dans un flux d'images(p. XX - XX)\newline
-    \item Conclusion (p. XX - XX)\newline
-\end{enumerate}
-               \newpage
+\vspace{30pt}
+\tableofcontents
+\newpage
 \section{Introduction} % section 1
 		Parmi les sens présents chez l'être humain, notre vision constitue le sens le plus critique quand il s'agit d'interagir avec notre environnement. De nos jours, la quasi omniprésence du numérique amène des nouveaux défis, notamment dans la gestion numérique de l’environnement réel. Ce défi s’intitule « la vision par ordinateur » et il constituera le sujet de ce travail. \newline
 
@@ -58,19 +52,29 @@ Avant de reconnaître un objet, il faut avant tout le connaître ou plutôt l’
   \includegraphics[scale=0.8]{binaire.jpg} % insère une image en taille réelle
   % l'extension n'est pas précisée pour éviter des problèmes de compilation
   % plus d'info ici : http://fr.wikibooks.org/wiki/LaTeX/Inclure_des_images
-  \caption{Source: http://www.map.toulouse.archi.fr/works/panoformation
-  /imagenum/imagenum.html } % nom de l'image
+  \caption{\href{http://www.map.toulouse.archi.fr/works/panoformation
+  /imagenum/imagenum.html}{Source} } % nom de l'image
 \end{figure}
 \newline
 \par
 	La majorité des images numériques que nous manipulons aujourd’hui sont caractérisées majoritairement par une représentation matricielle du réel. La représentation numérique d’un réel est donc un ensemble de cases appelé pixels qui restituent les informations de luminosités et de chromaticité d’un point du réel imagé. Nous ne rentrerons pas en détail ici sur le processus de captation d’une image numérique car bien que passionnant il constitue une digression dans le cadre de ce travail. \newline
 
-	Néanmoins, il semble important de préciser une caractéristique propre à l’image numérique. En effet, celle-ci se caractérise par sa résolution que l’on pourrait simplifier par le nombre de points ou pixels que possède une image pour représenter un réel en fonction de l’unité de longueur de cette image. Cette caractéristique peut se révéler importante dans le cadre de la cadre de la détection d’objets car une trop faible résolution pourrait réduire la lisibilité de la forme représentée, mais une trop grande résolution pourrait également augmenter le temps de calcul compte tenu de la quantité de détail et dès lors d’information à traiter. En effet, comme nous pourrons le constater par la suite, certain modèle de reconnaissance d’objet intra image limite les résolutions de traitement afin de conserver une efficacité optimale.  
+	Néanmoins, il semble important de préciser une caractéristique propre à l’image numérique. En effet, celle-ci se caractérise par sa résolution que l’on pourrait simplifier par le nombre de points ou pixels que possède une image pour représenter un réel en fonction de l’unité de longueur de cette image. Cette caractéristique peut se révéler importante dans le cadre de la détection d’objets car une trop faible résolution pourrait réduire la lisibilité de la forme représentée, mais une trop grande résolution pourrait également augmenter le temps de calcul compte tenu de la quantité de détail et dès lors d’information à traiter. En effet, comme nous pourrons le constater par la suite, certain modèle de reconnaissance d’objet intra image limite les résolutions de traitement afin de conserver une efficacité optimale. \newline
+ \par
+    Ensuite, la synthèse des couleurs est également une caractéristique importante, car celle-ci contient des informations potentiellement importantes en ce qui concerne la caractérisation d’un objet. En effet, on distingue trois modèles de synthèses des couleurs principaux, le modèle RGB, le modèle CMJN et le modèle TSL.\newpage
+\par
+Le modèle RGB correspond à la synthèse additive des couleurs dans lequel un ensemble de trois couleurs primaires, le rouge, le vert et le bleu sont additionné pour former une couleur cible. Cette synthèse divise donc l’image en trois couches dans lesquelles les informations de chromaticité sont stocké est fonction des valeurs des couleurs primaires pour un pixel donné. Ce modèle est le plus couramment utilisé quand il s’agit de représentation des couleurs dans une image numérique.\newline
+\par
+Le modèle CMJN ou CMJK correspond quant à lui à la synthèse soustractive des couleurs. Les trois primaires cyan, magenta et jaune et le noir sont soustraite pour obtenir une couleur cible. L’image est donc décomposée en quatre composantes, une couche cyan, une couche magenta, une couche jaune et une couche comportant des informations exprimées en niveaux de gris. Ce modèle est principalement utilisé dans des fichiers numériques ayant comme finalité l’impression sur un support physique.\newline
+\par
+En ce qui concerne le modèle TSL, celui-ci est basé sur la modification des paramètres qui définissent une couleur. La teinte, la saturation et la luminance d’une couleur sont ainsi modifié afin d’obtenir la couleur cible désirée. Ce modèle présente une approche plus intuitive quant à la synthèse d’une couleur souhaitée mais on ne le retrouvera pas en tant que modèle d’exportation dans un fichier destiné à être visionné.\newline
+\par
+Dans le cadre de la reconnaissance d’objet intra-image il sera plus courant de travailler avec des images en couleurs qui utilisent la synthèse additive des couleurs correspondant au modèle RGB étant donné la prépondérance de ce modèle dans l’imagerie numérique.\newline
 \newpage
 \textbf{2) Reconnaissance générale et spéficique}
 \newline
 \par
-	Dans le domaine de la vision par ordinateur il y a deux types de reconnaissance d'objet dans une image, la reconnaissance générale et la reconnaissance spécifique. En effet, l’une va permettre de caractériser une classe d’objet alors que l’autre va s’attarder sur un objet spécifique comme c’est le cas dans le cadre de la reconnaissance faciale par exemple. 
+	Dans le domaine de la vision par ordinateur, il existe deux types de reconnaissance d'objet dans une image: la reconnaissance générale et la reconnaissance spécifique. En effet, l’une va permettre de caractériser une classe d’objet alors que l’autre va s’attarder sur un objet spécifique comme c’est le cas dans le cadre de la reconnaissance faciale par exemple. 
 \newline
 \par
 Cependant, ces deux méthodes ne font pas face aux mêmes défis. En effet, les défis de la caractérisation générale sont, par définition, moins complexe d’un point de vue pratique étant donné que ces méthodes s’arrêtent aux classes des objets. Une méthode de reconnaissance générale va caractériser l’image d’une chaise comme étant un objet chaise et non la chaise en plexiglas designé par Phillipe Starck comme on peut le voir sur les images tests ci-dessous : 
@@ -80,15 +84,14 @@ Cependant, ces deux méthodes ne font pas face aux mêmes défis. En effet, les 
   \includegraphics[scale=0.2]{stark.jpg} % insère une image en taille réelle
   % l'extension n'est pas précisée pour éviter des problèmes de compilation
   % plus d'info ici : http://fr.wikibooks.org/wiki/LaTeX/Inclure_des_images
-  \caption{Source: https://www.elle.fr/Deco/Reportages/Les-pros/Philippe-Starck-le-designer-star-en-dix-realisations-iconiques } % nom de l'image
+  \caption{\href{https://www.elle.fr/Deco/Reportages/Les-pros/Philippe-Starck-le-designer-star-en-dix-realisations-iconiques}{Source} }
 \end{figure}
 \newline
 \begin{figure}[h] % insère une figure ici (h = "here")
   \centering % centre la figure
   \includegraphics[scale=0.2]{output.png} % insère une image en taille réelle
   % l'extension n'est pas précisée pour éviter des problèmes de compilation
-  % plus d'info ici : http://fr.wikibooks.org/wiki/LaTeX/Inclure_des_images
-  \caption{Source: https://www.elle.fr/Deco/Reportages/Les-pros/Philippe-Starck-le-designer-star-en-dix-realisations-iconiques } % nom de l'image
+  % plus d'info ici : http://fr.wikibooks.org/wiki/LaTeX/Inclure_des_image
 \end{figure}
 \newpage
 \par
@@ -100,8 +103,8 @@ Cette technologie ne possède pas les mêmes défis que la reconnaissance d’in
   \centering % centre la figure
   \includegraphics[scale=0.45]{face.jpg} % insère une image en taille réelle
   % l'extension n'est pas précisée pour éviter des problèmes de compilation
-  % plus d'info ici : http://fr.wikibooks.org/wiki/LaTeX/Inclure_des_images
-  \caption{Source: https://www.eu-startups.com/2020/12/facial-recognition-tech-risks-regulations-and-future-startup-opportunities-in-the-eu/ } % nom de l'image
+  % plus d'info ici : http://fr.wikibooks.org/wiki/LaTeX/Inclure_des_image
+  \caption{\href{https://www.eu-startups.com/2020/12/facial-recognition-tech-risks-regulations-and-future-startup-opportunities-in-the-eu/}{Source} }
 \end{figure}
 \newline
 \par
@@ -140,8 +143,8 @@ Ce défi nait dans l’extravagance de l’esprit humain, si l’on reprend enco
   \centering % centre la figure
   \includegraphics[scale=0.27]{chairAfterReco.png} % insère une image en taille réelle
   % l'extension n'est pas précisée pour éviter des problèmes de compilation
-  % plus d'info ici : http://fr.wikibooks.org/wiki/LaTeX/Inclure_des_images
-  \caption{Source: http://gofreedownload.net/free-vector/vector-abstract/furniture-chairs-icons-collection-various-colored-types-263171/} % nom de l'image
+  % plus d'info ici : http://fr.wikibooks.org/wiki/LaTeX/Inclure_des_image
+  \caption{\href{ http://gofreedownload.net/free-vector/vector-abstract/furniture-chairs-icons-collection-various-colored-types-263171/}{Source} }
 \end{figure}
 \newpage
 
@@ -167,7 +170,7 @@ La figure à la page suivante illustre le concept de la méthode SVM, ou l'on pe
   \includegraphics[scale=0.40]{vectors.png} % insère une image en taille réelle
   % l'extension n'est pas précisée pour éviter des problèmes de compilation
   % plus d'info ici : http://fr.wikibooks.org/wiki/LaTeX/Inclure_des_images
-  \caption{Source: https://ichi.pro/fr/explication-de-la-machine-vectorielle-de-support-svm-97743104690915} % nom de l'image
+  \caption{\href{ https://ichi.pro/fr/explication-de-la-machine-vectorielle-de-support-svm-97743104690915}{Source} }
 \end{figure}
 \newline
 
@@ -187,7 +190,7 @@ Cette méthode correspondant plus à l’état de l’art actuel, elle sera dét
 
 \newpage
 \section{Analyse} % section 3}
-\newline
+
 \textbf{Artificial Neural Network et Convolutional Neural Network}\newline
 \par
 Dans le domaine de l’intelligence artificielle on exploite couramment des réseaux de neurones calqués sur le schéma de connections du cerveau humain. Ceux-ci sont connus sur le nom d’ « Artificial Neural Network » ou ANN et sont composés, si l’on simplifie, de 4 étapes :\newline
@@ -204,7 +207,7 @@ Dans le domaine de l’intelligence artificielle on exploite couramment des rés
   \includegraphics[scale=0.30]{ANN.png} % insère une image en taille réelle
   % l'extension n'est pas précisée pour éviter des problèmes de compilation
   % plus d'info ici : http://fr.wikibooks.org/wiki/LaTeX/Inclure_des_images
-  \caption{Source: https://towardsdatascience.com/step-by-step-guide-to-building-your-own-neural-network-from-scratch-df64b1c5ab6e} % nom de l'image
+  \caption{\href{https://towardsdatascience.com/step-by-step-guide-to-building-your-own-neural-network-from-scratch-df64b1c5ab6e}{Source} }
 \end{figure}
 \newpage
 \par
@@ -219,16 +222,52 @@ Le procédé mis en œuvre par ce système repose sur l’utilisation d’un fil
   \includegraphics[scale=0.20]{CNN.jpeg} % insère une image en taille réelle
   % l'extension n'est pas précisée pour éviter des problèmes de compilation
   % plus d'info ici : http://fr.wikibooks.org/wiki/LaTeX/Inclure_des_images
-  \caption{Source:https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53} % nom de l'image
+  \caption{\href{https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53}{Source} }
 \end{figure}
 \newpage
-test
+\textbf{Les différentes approches basées sur le deep learning}\newline
+
+\textit{1)	R-CNN}\newline
+
+Les méthodes R-CNN pour « Region-based Convolutional Neural Networks » sont basées sur une approche selective qui va extraire des zones d’intérêt dans l’image afin de les fournir dans le réseau de neurones CNN. Le temps d’entrainement de cette méthode est particulièrement long puisque chaque division d’image est fournie au réseau de neurones.\newline 
+
+\textit{2)	Fast R-CNN}\newline
+
+Afin de palier au problème de lenteur de la méthode R-CNN, une méthode appelée « Fast R-CNN » a été introduite, celle-ci effectue une analyse globale de l’image au lieu de passer par une multitude de région d’intérêt.\newline
+
+\textit{3)	YOLO}\newline 
+
+La méthode « YOLO » pour « You Only Look Once” est une des méthodes les plus rapide car celle-ci utilise un seul réseau de neurones sur l’entièreté de l’image. Cette méthode repose sur un modèle d’intelligence artificielle pré-entrainé qui lui permet de discerner des formes dans l’image grâce à une navigation transversale de l’image. Cette méthode exécute aussi son analyse avec une multitude d’échelle différente pour un objet donné afin de ne pas discriminer les différences d’échelle. L’ensemble de l’analyse résulte en une liste de probabilité d’objets reconnus et l’algorithme expose l’objet correspondant à la probabilité la plus élevée.\newline
+\begin{figure}[h] % insère une figure ici (h = "here")
+  \centering % centre la figure
+  \includegraphics[scale=0.20]{YOLO.png} % insère une image en taille réelle
+  % l'extension n'est pas précisée pour éviter des problèmes de compilation
+  % plus d'info ici : http://fr.wikibooks.org/wiki/LaTeX/Inclure_des_images
+  \caption{\href{https://pjreddie.com/darknet/yolov2/}{Source} }
+\end{figure}
+\newpage
+\textit{4)	SSD}\newline
+
+La méthode « SSD » ou « Single Shot Detector » est une méthode basée sur la génération de boite de détection associé à l’utilisation de réseau de neurone de type CNN au sein de l’image analysée. 
+Ces boites de recherche sont générées par un algorithme qui se base sur un point d’ancrage défini par un pixel présent dans l’image analysée.  Il résulte de cette opération une multitude de boites de recherches (orientées de manière horizontale et verticale). Chacune de ces boites de recherche est ensuite analysée pour en extraire les éventuels objets présents dans l’image.\newline 
+\begin{figure}[h] % insère une figure ici (h = "here")
+  \centering % centre la figure
+  \includegraphics[scale=0.80]{ssd.png} % insère une image en taille réelle
+  % l'extension n'est pas précisée pour éviter des problèmes de compilation
+  % plus d'info ici : http://fr.wikibooks.org/wiki/LaTeX/Inclure_des_images
+   \caption{\href{https://towardsdatascience.com/review-ssd-single-shot-detector-object-detection-851a94607d11}{Source} }
+\end{figure}
+
 \newpage
 \section{Conclusion} % section 4
+Parmi tous les défis du monde technologique de demain, la compréhension de notre monde et des interactions multiples est cruciale pour permettre à une machine dans nous aider dans des taches complexe. La vision par ordinateur et l’intelligence artificielle constituent dès lors des disciplines d’avenir qui ne peuvent que prendre de l’ampleur dans les années à venir. On peut déjà constater son importance dans une multitude de secteur, le secteur des transports par exemple avec son lot de véhicule autonome qui sans cette méthode de traitement de notre environnement serait tout bonnement incapable de prendre des décisions. On constate aussi l’importance de cette technologie dans le domaine des soins de santé, dans lequel la vision par ordinateur permet au personnel soignant d’identifier la sévérité de certaines tumeurs. \newline
+\par
+	Il est nécessaire d’appréhender cette technologie avec un certain regard critique également. En effet, si une machine peut voir et comprendre le monde, celle-ci étant pour l’instant dépourvue de raison, il est complexe d’attribuer une confiance absolue dans ses décisions. Cependant, il est important de raisonner les doutes sur l’efficacité de ces méthodes et sur les données qu’elles nous amènent à traiter. Il est donc crucial de connaître et de comprendre cette technologie et ces différentes méthodes de traitements afin de pouvoir exercer une critique active et justifié sur les données extraites grâce à la vision par ordinateur. \newline
+\par
+	Enfin, le couple vision par ordinateur et intelligence artificielle sont amené à nous permettre dans les années à venir à augmenter nos capacités d’analyse sur notre monde et d’optimisé celui-ci afin de le rendre plus sûr. Avec des techniques de plus en plus efficace et rapide, nous sommes déjà en mesure aujourd’hui d’effectuer de la vision par ordinateur presque en temps réel. Il en découle ainsi une série de prédictions qui dans certain cas permette d’anticiper des évènements ou des modifications d’états à venir. Gardons un œil attentif sur cette technologie qui si jeune soit elle, nous promet déjà un lot d’avancées conséquent dans l’avenir pour une multitude de secteurs cruciaux dans notre vie quotidienne. 
 \newpage
-\enquote{Une bonne conclusion est une conclusion finale.} \citep{Hoo12} % citation entre guillemets et auteur entre parenthèses avec \citep
 
+\nocite {*}
 \bibliographystyle{plainnat-fr} % paramètre l'affichage de la bibliographie
-\bibliography{biblio} % indique que la bibliographie se trouve dans le fichier biblio.bib
-
+\bibliography{biblioVJ}
 \end{document} % fin du corps du texte
